@@ -1,0 +1,19 @@
+#include<iostream>
+
+using namespace std;
+
+int main(){
+
+    int n1,n2,suma;
+
+    cout<<"Escriba el primer numero"<<endl;
+    cin>>n1;
+    cout<<" Escriba el segundo numero"<<endl;
+    cin>>n2;
+
+    suma=((n2 - n1 +1) * (n1 +n2)) / 2;
+
+    cout<<"La suma de los numeros comprendidos entre "<<n1<<" y "<<n2<<" es:"<<suma<<endl;
+
+    return 0;
+}
